@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+/* HEADER BLANCO */
+.header{
+    background:white;
+    text-align:center;
+    padding:15px;
+}
+
+.logo{
+    width:220px;   
+    display:block;
+    margin:0 auto;
+}
+
+/* NAV NEGRO */
+.nav{
+    background:black;
+    text-align:center;
+    padding:10px;
+}
+
+.nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+/* SLIDER */
+.slider{
+    display:flex;
+    width:80%;
+    margin:30px auto;
+    height:380px;
+}
+
+.img{
+    width:50%;
+}
+
+.img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.info{
+    width:50%;
+    background:#f5f0e6;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:15px;
+}
+
+/* FOOTER */
+footer{
+    background:#000000;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+footer{
+    background:#0c0c0c;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+.redes{
+    margin-top:10px;
+}
+
+.redes a{
+    color:white;
+    font-size:20px;
+    margin:0 10px;
+    display:inline-block;
+    transition:0.3s;
+}
+
+.redes a:hover{
+    color:#ffd166;
+    transform:scale(1.2);
+}
+.redes a{
+    color:white;
+    font-size:22px;
+    margin:0 10px;
+    display:inline-block;
+}
+
+.redes a:hover{
+    color:#ffd166;
+    transform:scale(1.2);
+}
+.menu{
+    padding:30px;
+    text-align:center;
+}
+
+.menu h2{
+    margin-bottom:20px;
+    color:#003049;
+}
+
+.plato{
+    display:inline-block;
+    width:250px;
+    margin:15px;
+    background:#f5f0e6;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+}
+
+.plato img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+
+.plato h3{
+    margin:10px 0 5px;
+}
+
+.plato p{
+    font-size:14px;
+    padding:0 10px 15px;
+    color:#444;
+}
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+}
+
+/* CONTENEDOR GENERAL */
+.contacto{
+  padding: 40px 20px;
+}
+
+/* BLOQUE SUPERIOR */
+.titulo-contacto{
+  background: #f4ecd8;
+  text-align: center;
+  padding: 30px 20px;
+  margin-bottom: 40px;
+}
+
+/* TÍTULO CONTACTO */
+.titulo-contacto h2{
+  display: inline-block;
+  font-style: italic;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 5px 25px;
+  margin-bottom: 10px;
+}
+
+/* TEXTO SUPERIOR */
+.titulo-contacto p{
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* BLOQUE INFERIOR */
+.info-contacto{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+/* COLUMNAS */
+.columna{
+  width: 300px;
+}
+
+/* SUBTÍTULOS */
+.columna h3{
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+/* TEXTO */
+.columna p{
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+/* EMAIL */
+.email{
+  color: green;
+}
+.slider{
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* IMAGEN MÁS GRANDE */
+.slider .img img{
+    width: 1000px;   /* 👈 AUMENTA EL TAMAÑO */
+    height: 700px;  /* 👈 ALTURA MÁS GRANDE */
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* TEXTO */
+.slider .info{
+    flex: 1;
+}
+
+.slider .info h2{
+    font-size: 32px;
+}
+
+.slider .info p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+/* CONTENEDOR DE LOGOS */
+footer .logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;   /* espacio entre imágenes */
+    flex-wrap: nowrap;
+}
+
+/* IMÁGENES */
+footer .logos img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+/* ===== MODAL ===== */
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+/* CUADRO DEL MODAL */
+.modal-contenido{
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* BOTÓN X */
+.cerrar{
+    float: right;
+    font-size: 25px;
+    cursor: pointer;
+}
